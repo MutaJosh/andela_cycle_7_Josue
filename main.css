@@ -34,17 +34,43 @@ footer {
 input {
 	width: 50px;
 	text-align: center;
+	outline: none;
 }
 
 
+.inp1 {
+	float: left;
+	margin-left: 15%;
+}
+
+.inp2 {
+	float: right;
+	margin-right: 15%;
+}
+
+.inp2 input{
+	width: 100px;
+}
+
 .container1 {
 	border: 2px solid black;
-	width: 400px;
+	width: 450px;
 	padding: 5px;
 	height: 250px;
 	margin-top: 7%;
 	float: left;
 	margin-left: 18%;
+/*	padding-left: 3%;
+	padding-right: 3%;*/
+}
+
+.container1 button {
+	margin-top: 30%;
+	width: auto;
+	height: auto;
+	border-radius: 3px;
+	padding: 7px;
+	outline: none;
 }
 
 .container2 {
