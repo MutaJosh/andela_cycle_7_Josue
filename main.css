@@ -2,3 +2,9 @@ body {
 	margin: 0px;
 	padding: 0px;
 }
+
+.nav {
+	background: black;
+	width: all;
+	height: 100px;
+}
