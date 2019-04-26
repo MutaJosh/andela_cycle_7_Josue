@@ -5,6 +5,7 @@ body {
 
 .nav {
 	background: black;
-	width: all;
+	color: white;
+	width: auto;
 	height: 100px;
 }
