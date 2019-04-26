@@ -34,14 +34,19 @@ footer {
 
 .container1 {
 	border: 2px solid black;
-	width: 500px;
+	width: 400px;
 	padding: 5px;
 	height: 250px;
 	margin-top: 7%;
+	float: left;
+	margin-left: 18%;
 }
 
 .container2 {
 	border: 2px solid black;
 	width: 400px;
 	height: 250px;
+	float: right;
+	margin-top: 7%;
+	margin-right: 15%;
 }
