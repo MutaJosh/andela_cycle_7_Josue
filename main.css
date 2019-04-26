@@ -4,11 +4,11 @@ body {
 }
 
 .nav {
-	background: black;
+	background: darkblue;
 	color: white;
 	width: auto;
 	height: 9%;
-	padding: 20px;
+	padding: 10px;
 	align-content: center;
 }
 
