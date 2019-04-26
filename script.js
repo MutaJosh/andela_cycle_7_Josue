@@ -1,6 +1,6 @@
 
-var myInp = document.getElementById('input1').value;
+var myInp = document.getElementById('input1');
 
 function balanceScale(){
-	alert(myInp);
+	alert(myInp.value);
 }
