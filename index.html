@@ -3,6 +3,7 @@
 <head>
 	<title>Andela Cycle 7</title>
 	<link rel="stylesheet" type="text/css" href="main.css">
+	<link rel="shortcut icon" type="image/png" href="logo.png">
 </head>
 <body>
 
@@ -30,18 +31,15 @@
 					<button onclick="balanceScale()">Balance</button>
 				</form>
 			</div>
+			<div id="res"></div>
 
 			<div class="container2">
 				<h3>Results</h3>
-				<div id="results">
-					
-
-				</div>
+					<p id="results"></p>
 			</div>
 		</div>
 		
 	</center>
-
 
 
 	<footer>
@@ -49,10 +47,18 @@
 	</footer>
 
 
+<script type="text/javascript">
+	var a = 100;
+
+	function balanceScale(){
+		document.getElementById('results').innerHTML = a;
+		// document.getElementById('results').style.backgroundColor = "teal";
+}
+</script>
 
 
 
-<script type="text/javascript" src="script.js"></script>
-
+<!-- <script type="text/javascript" src="script.js"></script>
+ -->
 </body>
 </html>
