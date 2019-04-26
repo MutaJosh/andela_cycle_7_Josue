@@ -2,5 +2,5 @@
 var myInp = document.getElementById('input1');
 
 function balanceScale(){
-	alert(myInp.value);
+	document.getElementById('results').innerHTML = myInp.value;
 }
