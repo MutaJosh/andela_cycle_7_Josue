@@ -10,5 +10,8 @@ body {
 	height: 9%;
 	padding: 20px;
 	align-content: center;
-	
+}
+
+.nav h1 {
+	margin: 100px;
 }
