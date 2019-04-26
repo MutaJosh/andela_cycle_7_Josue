@@ -15,3 +15,9 @@ body {
 .nav h1 {
 	margin: 100px;
 }
+
+footer {
+	background-color: black;
+	color: azure;
+	padding: 5px;
+}
