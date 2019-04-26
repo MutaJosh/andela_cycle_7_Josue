@@ -22,10 +22,6 @@ a:hover {
 	color: blue;
 }
 
-/*.nav h1 {
-	margin: 100px;
-}*/
-
 footer {
 	background-color: black;
 	color: azure;
@@ -33,4 +29,9 @@ footer {
 	margin-top: 31.25em;
 	text-align: center;
 	font-family: cursive;
+}
+
+
+.container {
+	
 }
