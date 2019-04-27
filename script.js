@@ -7,7 +7,7 @@
 		var avWeightArr = availableWeight.split(",");
 
 		if (weightArr[0] == 8) {
-			console.log(weightArr[0] + weightArr[1]);
+			console.log(weightArr);
 		}
 
 
