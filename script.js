@@ -102,6 +102,7 @@ function ScaleBalancing(arrBoth) {
     });
          
     document.getElementById('results').innerHTML = finalWeights.sort((a,b) => a-b).join(',');
+    document.getElementById('')
     console.log("Balanced!"); 
 
 }

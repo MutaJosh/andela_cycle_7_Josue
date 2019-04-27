@@ -89,3 +89,13 @@ h3 {
 	margin-right: 14%;
 	text-align: center;
 }
+
+#results {
+	background-color: teal;
+	height: 150px;
+	margin-left: 10px;
+	margin-right: 10px;
+	color: white;
+	font-size: 30px;
+	padding-top: 30px;
+}
