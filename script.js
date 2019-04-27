@@ -11,5 +11,12 @@
 		}
 
 
-		// console.log(avWeightArr);
+
+		for (var i = 0; i < weightArr.length; i++) {
+			
+			for (var j = 0; j < avWeightArr.length; j++) {
+				
+				if (true) {}
+			}
+		}
 }
