@@ -15,9 +15,6 @@ var arrBoth = new Array();
 arrBoth[0] = format('[%s]',myAr1);
 arrBoth[1] = format('[%d]', myAr2);
 
-//const formatted = format('Hi [%s], [%d]', myAr1, myAr2);
-
-
 	console.log(arrBoth);
 
     // let objects = strArr[0].substr(1, strArr[0].length-2).split(', ').map(object => parseInt(object));
