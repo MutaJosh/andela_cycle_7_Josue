@@ -109,9 +109,6 @@ arrBoth[1] = format('[%d]', myAr2);
     // return finalWeights.sort((a,b) => a-b).join(','); 
 }
    
-// keep this function call here 
-//ScaleBalancing(newArr);
-
 
 
 
