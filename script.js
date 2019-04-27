@@ -1,5 +1,9 @@
 
 	
+
+
+function ScaleBalancing(arrBoth) { 
+
 		const format = (...args) => args.shift().replace(/%([jsd])/g, x => x === '%j' ? JSON.stringify(args.shift()) : args.shift());
 
 
@@ -13,12 +17,8 @@
 		arrBoth[0] = format('[%s]',myAr1);
 		arrBoth[1] = format('[%d]', myAr2);
 
-
-function ScaleBalancing(arrBoth) { 
-
-
-    let objects = arrBoth[0].substr(1, arrBoth[0].length-2).split(', ').map(object => parseInt(object));
-    let weights = arrBoth[1].substr(1, arrBoth[1].length-2).split(', ').map(weight => parseInt(weight));
+    let objects = arrBoth[0].substr(1, arrBoth[0].length-2).split(',').map(object => parseInt(object));
+    let weights = arrBoth[1].substr(1, arrBoth[1].length-2).split(',').map(weight => parseInt(weight));
     
     /*
         Generate all possible combinations of weights AND permutations of left/right - 3^n time
@@ -64,7 +64,7 @@ function ScaleBalancing(arrBoth) {
     });
     
     if (goodCombos.length === 0) {
-        return 'not possible';
+        console.log('Scale Imbalanced!');
     }
     
     // Sort first by number of physical weights used, then by total weight if there are multiple sets
@@ -101,7 +101,9 @@ function ScaleBalancing(arrBoth) {
         }
     });
          
-    return finalWeights.sort((a,b) => a-b).join(','); 
+    document.getElementById('results').innerHTML = finalWeights.sort((a,b) => a-b).join(',');
+    console.log("Balanced!"); 
+
 }
    
 
