@@ -106,9 +106,3 @@ function ScaleBalancing(arrBoth) {
 
 }
    
-
-
-
-
-
-
