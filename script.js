@@ -6,8 +6,6 @@
                             =========================                   
 
                                                                                                     */
-
-
 function ScaleBalancing(arrBoth) { 
 
 		const format = (...args) => args.shift().replace(/%([jsd])/g, x => x === '%j' ? JSON.stringify(args.shift()) : args.shift());
