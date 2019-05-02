@@ -6,4 +6,4 @@ This is the Andela Cycle 7 code challenge!
 It is about the Scale Balancing!
 
 	When the scale is balanced, it returns an ordered list of available 
-	weights 
+	weights that can balance the scale!	
