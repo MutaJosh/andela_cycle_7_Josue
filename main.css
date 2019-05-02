@@ -101,9 +101,5 @@ h3 {
 }
 
 @media (max-width: 1300px){
-	.container2 {		
-		float: right;
-		margin-top: 10%;
-		margin-right: 18%;
-	}
+	
 }

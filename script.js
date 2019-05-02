@@ -51,7 +51,7 @@ function ScaleBalancing(arrBoth) {
     
     // Test combos
     let goodCombos = [];
-    
+
     combos.forEach(function(combo){
         let left = objects[0];
         let right = objects[1];
@@ -60,6 +60,7 @@ function ScaleBalancing(arrBoth) {
             if (combo[i] === '1') {  // Left
                 left += weights[i];
             }
+
             if (combo[i] === '2') {  // Right
                 right += weights[i];
             }
@@ -86,6 +87,7 @@ function ScaleBalancing(arrBoth) {
             return 1;
         }
         // aCount === bCount -> must check weights and use lesser weight total
+        
         let aTotal = 0;
         let bTotal = 0;
         for (let i = 0; i < a.length; i++) {
@@ -98,8 +100,8 @@ function ScaleBalancing(arrBoth) {
         }
         return aTotal - bTotal;
     });
-    //console.log(goodCombos);
-    
+    console.log(goodCombos);
+    /*
     let theCombo = goodCombos[0];
     let finalWeights = [];
     theCombo.split('').map(function(value, index) {
@@ -109,7 +111,7 @@ function ScaleBalancing(arrBoth) {
     });
          
     document.getElementById('results').innerHTML = finalWeights.sort((a,b) => a-b).join(',');
-    console.log("Balanced!"); 
+    console.log("Balanced!"); */
 
 }
    
