@@ -1,5 +1,11 @@
 
-	
+      /*                      =========================
+                            |                       |
+                            |   Scale balancing     |
+                        	|                       |
+                            =========================                   
+
+                                                                                                    */
 
 
 function ScaleBalancing(arrBoth) { 
