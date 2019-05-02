@@ -9,4 +9,4 @@ It is about the Scale Balancing!
 	weights that can balance the scale!	
 
 
-	When the scale is 
+	When the scale is imbalanced, 
