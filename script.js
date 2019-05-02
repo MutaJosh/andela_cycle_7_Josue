@@ -30,7 +30,9 @@ function ScaleBalancing(arrBoth) {
         1 - Weight on left side
         2 - Weight on right side
     */
+
     let combos = [];
+    
     for (let i = 0, max = Math.pow(3, weights.length); i < max; i++) {
         let combo = i.toString(3);
         let numWeights = combo.split('').reduce((a,v) => a + (parseInt(v) > 0 | 0), 0);
