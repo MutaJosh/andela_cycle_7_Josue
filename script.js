@@ -32,11 +32,11 @@ function ScaleBalancing(arrBoth) {
     */
 
     let combos = [];
-    
+
     for (let i = 0, max = Math.pow(3, weights.length); i < max; i++) {
         let combo = i.toString(3);
         let numWeights = combo.split('').reduce((a,v) => a + (parseInt(v) > 0 | 0), 0);
-
+                                                                                                                   
         if (numWeights > 2) {
             continue;
         }
@@ -51,6 +51,7 @@ function ScaleBalancing(arrBoth) {
     
     // Test combos
     let goodCombos = [];
+    
     combos.forEach(function(combo){
         let left = objects[0];
         let right = objects[1];
