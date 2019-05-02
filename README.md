@@ -9,4 +9,4 @@ It is about the Scale Balancing!
 	weights that can balance the scale!	
 
 
-	When the scale is imbalanced, 
+	When the scale is imbalanced, it returns "Scale imbalanced!"
