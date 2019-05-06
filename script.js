@@ -101,7 +101,7 @@ function ScaleBalancing(arrBoth) {
         return aTotal - bTotal;
     });
     console.log(goodCombos);
-    /*
+    
     let theCombo = goodCombos[0];
     let finalWeights = [];
     theCombo.split('').map(function(value, index) {
@@ -111,7 +111,7 @@ function ScaleBalancing(arrBoth) {
     });
          
     document.getElementById('results').innerHTML = finalWeights.sort((a,b) => a-b).join(',');
-    console.log("Balanced!"); */
+    console.log("Balanced!"); 
 
 }
    
